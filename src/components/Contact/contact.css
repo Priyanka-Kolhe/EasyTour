@@ -1,0 +1,103 @@
+.contact-main-container{
+  height: 100vh;
+  width: 100vw;
+  /* background-color: gray; */
+
+}
+.contact-header{
+  height: 12vh;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+
+.heading{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.contact-content
+{
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 20px 0;
+}
+
+.enquiry-form{
+  height: 80vh;
+  width: 35vw;
+  background-color: rgba(214, 207, 207, 0.815);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px gray;
+  text-align: center; 
+}
+
+ .contact-info{
+  height: 80vh;
+  width: 35vw; 
+} 
+
+.contact-information{
+  height: 80vh;
+  width: 30vw;
+  background-color: rgba(214, 207, 207, 0.815);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px gray;
+  font-size: 18px;
+}
+
+.contact-information h2{
+  font-size: 1.5rem;
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+} 
+
+form .user-input {
+  margin: 15px;
+  font-size: 15px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+form button{
+  margin: 15px;
+  font-size: 15px;
+  height: 40px;
+  width: 300px;
+  color: white;
+  background-color: #1b939c;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form #message{
+  height: 100px;
+
+}
+
+form button:hover{
+  background-color: greenyellow ;
+}
