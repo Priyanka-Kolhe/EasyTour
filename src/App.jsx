@@ -8,11 +8,8 @@ import Contact from './components/Contact/Contact'
 const App = () => {
   return (
     <>
-         <Contact />
-         
+         <Contact />    
     </>
-      
-
   )
 }
 

@@ -86,8 +86,7 @@ form button{
   font-size: 15px;
   height: 40px;
   width: 300px;
-  color: white;
-  background-color: #1b939c;
+  background-color: #1b9c85;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -99,5 +98,5 @@ form #message{
 }
 
 form button:hover{
-  background-color: greenyellow ;
+  background-color: green ;
 }

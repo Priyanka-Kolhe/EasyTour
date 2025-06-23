@@ -1,9 +1,8 @@
 .contact-main-container{
   height: 100vh;
   width: 100vw;
-  /* background-color: gray; */
-
 }
+
 .contact-header{
   height: 12vh;
   width: 100vw;
@@ -31,6 +30,7 @@
   gap: 2rem;
    margin: 20px 0;
 }
+
 .enquiry-form{
   height: 80vh;
   width: 35vw;
@@ -42,16 +42,7 @@
   border-radius: 10px;
   box-shadow: 4px 4px 4px gray;
   text-align: center;
- 
-  
 }
-
-/* .contact-info{
-  height: 80vh;
-  width: 35vw;
- 
-  
-} */
 
 .contact-information{
   height: 80vh;
@@ -70,15 +61,6 @@
   margin-top: 1rem;
 } 
 
-/* .support-hours{
-  height: 200px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-} */
-
-
 form .user-input {
   margin: 15px;
   font-size: 15px;
@@ -95,7 +77,6 @@ form button{
   font-size: 15px;
   height: 40px;
   width: 300px;
-  color: white;
   background-color: #1b9c85;
   border: none;
   cursor: pointer;
@@ -108,5 +89,5 @@ text-align: center;
 }
 
 form button:hover{
-  background-color: #ff004f;
-}
+  background-color: green;
+} 
