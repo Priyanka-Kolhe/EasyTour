@@ -1,8 +1,9 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css'
-import './components/Contact/Contact'
+
 import './App.css'
-import Contact from './components/Contact/Contact'
+import Contact from './views/Contact/Contact'
+import Sociallink from './components/Sociallinks/Sociallink'
 
 
 const App = () => {
